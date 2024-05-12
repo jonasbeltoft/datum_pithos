@@ -8,8 +8,6 @@
 
 [<img src="https://www.sdu.dk/-/media/files/nyheder/logoer/sdu_white_rgb-png.png" alt="Southern University of Denmark logo" style="height: 40px"/>](https://www.sdu.dk/)
 
-<br/>
-
 # Stack
 
 - [![](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/) for containerization
