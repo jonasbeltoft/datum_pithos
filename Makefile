@@ -8,3 +8,6 @@ dev:
 
 install:
 	@cd ./frontend/datum-pithos && bun install
+
+build:
+	@cd ./frontend/datum-pithos && bun run build
