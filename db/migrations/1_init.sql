@@ -16,6 +16,7 @@ CREATE TABLE readings (
     type_id INTEGER NOT NULL, -- The type this reading belongs to
     created_at INTEGER DEFAULT (unixepoch()), -- UNIX Time at INSERT
     note TEXT,
+    metadata TEXT, -- JSON object of differebt metadata
     FOREIGN KEY (type_id) REFERENCES reading_types(id) ON DELETE CASCADE -- If type is deleted, all data is deleted
 );
 

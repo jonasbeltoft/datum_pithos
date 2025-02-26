@@ -1,13 +1,12 @@
-help:
-	@echo "Please use 'make <target>' where <target> is one of"
-	@echo "  install     to install all dependencies"
-	@echo "  dev         to run the development server"
+.PHONY: up down restart logs
 
-dev:
-	@cd ./frontend/datum-pithos && bun run dev
+up:
+	docker compose up --detach
 
-install:
-	@cd ./frontend/datum-pithos && bun install
+down:
+	docker compose down
 
-build:
-	@cd ./frontend/datum-pithos && bun run build
+restart: down up
+
+logs:
+	docker compose logs -f
