@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+@layout MainLayout
+
+<PageTitle>Measurements</PageTitle>
+
+<div class="d-flex flex-row flex-grow-1">
+    <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+    <div class="nav-scrollable sidebar" onclick="document.querySelector('.navbar-toggler').click()">
+        <nav class="nav flex-column">
+            <div class="nav-item pe-3">
+                <NavLink class="nav-link" href="@GetLink(1)" Match="NavLinkMatch.All">
+                    Vand målinger 1
+                </NavLink>
+            </div>
+            <div class="nav-item pe-3">
+                <NavLink class="nav-link" href="@GetLink(2)" Match="NavLinkMatch.All">
+                    Vand målinger 2
+                </NavLink>
+            </div>
+            <div class="nav-item pe-3">
+                <NavLink class="nav-link" href="@GetLink(3)" Match="NavLinkMatch.All">
+                    Vand målinger 3
+                </NavLink>
+            </div>
+            <div class="nav-item pe-3">
+                <NavLink class="nav-link" href="@GetLink(4)" Match="NavLinkMatch.All">
+                    Vand målinger 4
+                </NavLink>
+            </div>
+        </nav>
+    </div>
+
+    <main class="py-3 px-4 flex-grow-1">
+        @Body
+    </main>
+</div>
+
+@code {
+    private string GetLink(int _id)
+    {
+        return $"/measurements/{_id}";
+    }
+}

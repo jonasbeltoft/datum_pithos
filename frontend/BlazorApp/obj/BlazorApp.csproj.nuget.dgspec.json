@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj": {}
+    "C:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj": {
+    "C:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "c:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "C:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\projects\\datum-pithos\\frontend\\BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
